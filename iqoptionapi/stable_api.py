@@ -11,6 +11,7 @@ from collections import defaultdict
 from collections import deque
 from iqoptionapi.expiration import get_expiration_time, get_remaning_time
 from datetime import datetime, timedelta
+from iqoptionapi.http.logout import Logout
 
 
 def nested_dict(n, type):
